@@ -38,7 +38,8 @@ This calculator provides basic arithmetic operations such as addition, subtracti
    ```bash
    python calculator.py
 ## Screenshot 
-![image](https://github.com/longle325/simple_calculator/assets/140832783/0fed57f9-c821-48f3-8d4d-ea4436a2c132)
+![image](https://github.com/longle325/simple_calculator/assets/140832783/629ed97f-25e0-49c2-9e9b-96ae2d1cc535)
+
 
 ## Credits
 This project is created by longle325. Feel free to contribute or report issues.
