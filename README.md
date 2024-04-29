@@ -43,4 +43,4 @@ This calculator provides basic arithmetic operations such as addition, subtracti
 This project is created by longle325. Feel free to contribute or report issues.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
