@@ -30,12 +30,13 @@ This calculator provides basic arithmetic operations such as addition, subtracti
    git clone https://github.com/yourusername/simple-calculator.git
 
 2. Navigate to the project directory:
-
+   
+   ```bash
   cd simple-calculator
 
 3. Run the Python script:
-
-  python calculator.py
+   ```bash
+   python calculator.py
 ## Screenshot 
 ![image](https://github.com/longle325/simple_calculator/assets/140832783/0fed57f9-c821-48f3-8d4d-ea4436a2c132)
 
