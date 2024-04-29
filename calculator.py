@@ -18,6 +18,8 @@ def myclick(number):
 def equal(event=None):
     try:
         y = str(entry.get())
+        if '𝝅' in y and len(y) >= 2 :
+             y = y.replace('𝝅','*𝝅')
         y = y.replace('𝝅','pi')
         y = y.replace('x','*')
         r = str(eval(y))
