@@ -32,7 +32,7 @@ This calculator provides basic arithmetic operations such as addition, subtracti
 2. Navigate to the project directory:
    
    ```bash
-  cd simple-calculator
+   cd simple-calculator
 
 3. Run the Python script:
    ```bash
