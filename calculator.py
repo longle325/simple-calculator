@@ -5,7 +5,7 @@ from tkinter.constants import SUNKEN
 
 window=tk.Tk()
 window.title('Calculator')
-window.geometry('500x580')
+window.geometry('480x560')
 frame=tk.Frame(master=window,bg="white",padx=0,pady=0)
 frame.pack()#N3
 entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=5, width=23, font=("Times New Roman", 25))
@@ -32,7 +32,7 @@ def equal(event=None):
 
 def clear():
 	entry.delete(0, tk.END)
-buttons = ['(',')','Del','sin','cos','tan','𝝅','7','8','9','/','4','5','6','x','1','2','3','-','0','.','=','+']
+buttons = ['(',')','Del','sin','cos','tan','𝝅','7','8','9','/','4','5','6','x','1','2','3','-','0','.','+','=']
 m = 1
 n = 0
 content = [' '] * len(buttons)
