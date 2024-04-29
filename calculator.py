@@ -18,14 +18,11 @@ def myclick(number):
 def equal(event=None):
     try:
         y = str(entry.get())
-        y = y.replace('sin','sin(')
-        y = y.replace('cos','cos(')
-        y = y.replace('tan','tan(')
         y = y.replace('𝝅','pi')
         y = y.replace('x','*')
-        y = str(eval(y))
+        r = str(eval(y))
         entry.delete(0, tk.END)
-        entry.insert(0, y)
+        entry.insert(0, r)
     except:
         tkinter.messagebox.showinfo("Error","Syntax Error")
 
